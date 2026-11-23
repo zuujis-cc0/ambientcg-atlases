@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="acg_5qtx9w48"]
+
+[ext_resource type="Texture2D" uid="uid://acg_21gmh0l7" id="Color" path="./FoodCrossSectionSet003_1K-JPG_Color.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_pfxulzwr" id="Displacement" path="./FoodCrossSectionSet003_1K-JPG_Displacement.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_y4pqtn9d" id="Roughness" path="./FoodCrossSectionSet003_1K-JPG_Roughness.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_60wnj7or" id="NormalGL" path="./FoodCrossSectionSet003_1K-JPG_NormalGL.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_ueywd43n" id="Scattering" path="./FoodCrossSectionSet003_1K-JPG_Scattering.jpg"]
+[resource]
+albedo_texture = ExtResource("Color")
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_texture = ExtResource("NormalGL")
+normal_enabled = true
+heightmap_texture = ExtResource("Displacement")
+heightmap_scale = 1.0
+heightmap_enabled = true
+subsurf_scatter_enabled = true
+subsurf_scatter_strength = 0.25
+subsurf_scatter_texture = ExtResource("Scattering")
